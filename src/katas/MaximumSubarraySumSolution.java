@@ -12,7 +12,7 @@ public class MaximumSubarraySumSolution {
 	
 	public int firstSolution(int [] arr) {
 		
-		if (arr.length == 0) return 0; // This is a condition from kata´s challenge. If it null, it should return 0
+		if (arr.length == 0) return 0; // This is a condition from kataÂ´s challenge. If it is null, it should return 0
 		 
 		if (areNegative(arr)) return 0; // And if all elements from the array are negative, it should return 0 too
 		
