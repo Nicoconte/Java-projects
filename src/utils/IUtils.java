@@ -4,7 +4,7 @@ public interface IUtils {
 	
 	/*
 	 * @task: compare two entry objects. This will be used to test input and output from code wars challenges
-	 * @param Object "actual", Object "expected"
+	 * @param generic Object "actual", generic Object "expected"
 	 * @return boolean. True if this two object match, otherwise it return false
 	 * */
 	static boolean testing(Object actual, Object expected) { return false; }
@@ -12,7 +12,7 @@ public interface IUtils {
 	
 	/*
 	 * @task: simplify message display
-	 * @param Object. It could be a String, an Integer, etc
+	 * @param generic Object. It could be a String, an Integer, etc
 	 * */
 	static void print(Object object) {}
 	
@@ -29,4 +29,6 @@ public interface IUtils {
 	 * @return single char as String
 	 * */
 	static String getCharAsStr(String str, int i) { return ""; }
+	
+	static int min(int [] arr) { return -1; }
 }

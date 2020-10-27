@@ -23,4 +23,15 @@ public class Utils implements IUtils {
 		return String.valueOf(str.charAt(index));
 	}
 	
+	public static int min(int arr[]) {
+		int m = arr[0];
+		
+		for (int i : arr) {
+			m = Math.min(i, m);
+		}
+		
+		return m;
+	}
+	
+	
 }
